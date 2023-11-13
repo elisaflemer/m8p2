@@ -32,6 +32,7 @@ Siga as instruções abaixo para clonar o repositório, construir o workspace e 
     ```bash
     cd ws
     colcon build
+    source install/setup.bash
     ```
 
 ### Para Mapear
