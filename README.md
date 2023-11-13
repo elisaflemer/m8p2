@@ -59,3 +59,7 @@ Siga as instruções abaixo para clonar o repositório, construir o workspace e 
     ```
 
 Agora o robô deverá navegar pelo ambiente simulado utilizando o mapa previamente gerado. Envie os pontos pelo terminal aberto.
+
+## Demo
+
+Um vídeo está disponível neste repo com o nome "p2.mp4"
