@@ -1,0 +1,22 @@
+[0.684s] Invoking command in '/home/elisa/p2/ws/src/mapear': PYTHONPATH=/home/elisa/p2/ws/build/mapear/prefix_override:/home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapear build --build-base /home/elisa/p2/ws/build/mapear/build install --record /home/elisa/p2/ws/build/mapear/install.log --single-version-externally-managed
+[0.844s] running egg_info
+[0.845s] creating ../../build/mapear/mapear.egg-info
+[0.845s] writing ../../build/mapear/mapear.egg-info/PKG-INFO
+[0.845s] writing dependency_links to ../../build/mapear/mapear.egg-info/dependency_links.txt
+[0.845s] writing entry points to ../../build/mapear/mapear.egg-info/entry_points.txt
+[0.845s] writing requirements to ../../build/mapear/mapear.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/mapear/mapear.egg-info/top_level.txt
+[0.845s] writing manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+[0.846s] reading manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+[0.846s] writing manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+[0.846s] running build
+[0.846s] running install
+[0.848s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.848s]   warnings.warn(
+[0.848s] running install_data
+[0.849s] creating /home/elisa/p2/ws/install/mapear/share
+[0.849s] creating /home/elisa/p2/ws/install/mapear/share/ament_index
+[0.849s] creating /home/elisa/p2/ws/install/mapear/share/ament_index/resource_index
+[0.849s] creating /home/elisa/p2/ws/install/mapear/share/ament_index/resource_index/packages
+[0.849s] error: can't copy 'resource/mapear': doesn't exist or not a regular file
+[0.864s] Invoked command in '/home/elisa/p2/ws/src/mapear' returned '1': PYTHONPATH=/home/elisa/p2/ws/build/mapear/prefix_override:/home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapear build --build-base /home/elisa/p2/ws/build/mapear/build install --record /home/elisa/p2/ws/build/mapear/install.log --single-version-externally-managed

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mapear/mapear.egg-info/PKG-INFO
+../../build/mapear/mapear.egg-info/SOURCES.txt
+../../build/mapear/mapear.egg-info/dependency_links.txt
+../../build/mapear/mapear.egg-info/entry_points.txt
+../../build/mapear/mapear.egg-info/requires.txt
+../../build/mapear/mapear.egg-info/top_level.txt
+../../build/mapear/mapear.egg-info/zip-safe
+launch/map_launch.py
+mapear/__init__.py
+resource/mapear
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

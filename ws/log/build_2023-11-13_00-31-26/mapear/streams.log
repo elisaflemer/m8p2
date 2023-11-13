@@ -1,0 +1,30 @@
+[1.709s] Invoking command in '/home/elisa/p2/ws/src/mapear': PYTHONPATH=/home/elisa/p2/ws/build/mapear/prefix_override:/home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapear build --build-base /home/elisa/p2/ws/build/mapear/build install --record /home/elisa/p2/ws/build/mapear/install.log --single-version-externally-managed
+[2.182s] running egg_info
+[2.183s] writing ../../build/mapear/mapear.egg-info/PKG-INFO
+[2.207s] writing dependency_links to ../../build/mapear/mapear.egg-info/dependency_links.txt
+[2.207s] writing entry points to ../../build/mapear/mapear.egg-info/entry_points.txt
+[2.207s] writing requirements to ../../build/mapear/mapear.egg-info/requires.txt
+[2.208s] writing top-level names to ../../build/mapear/mapear.egg-info/top_level.txt
+[2.213s] reading manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+[2.215s] writing manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+[2.215s] running build
+[2.216s] running build_py
+[2.216s] creating /home/elisa/p2/ws/build/mapear/build
+[2.216s] creating /home/elisa/p2/ws/build/mapear/build/lib
+[2.216s] creating /home/elisa/p2/ws/build/mapear/build/lib/mapear
+[2.217s] copying mapear/__init__.py -> /home/elisa/p2/ws/build/mapear/build/lib/mapear
+[2.217s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.218s]   warnings.warn(
+[2.218s] running install
+[2.218s] running install_lib
+[2.220s] creating /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear
+[2.220s] copying /home/elisa/p2/ws/build/mapear/build/lib/mapear/__init__.py -> /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear
+[2.220s] byte-compiling /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear/__init__.py to __init__.cpython-310.pyc
+[2.221s] running install_data
+[2.223s] copying resource/mapear -> /home/elisa/p2/ws/install/mapear/share/ament_index/resource_index/packages
+[2.223s] copying package.xml -> /home/elisa/p2/ws/install/mapear/share/mapear
+[2.224s] running install_egg_info
+[2.231s] Copying ../../build/mapear/mapear.egg-info to /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear-0.0.0-py3.10.egg-info
+[2.233s] running install_scripts
+[2.281s] writing list of installed files to '/home/elisa/p2/ws/build/mapear/install.log'
+[2.463s] Invoked command in '/home/elisa/p2/ws/src/mapear' returned '0': PYTHONPATH=/home/elisa/p2/ws/build/mapear/prefix_override:/home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapear build --build-base /home/elisa/p2/ws/build/mapear/build install --record /home/elisa/p2/ws/build/mapear/install.log --single-version-externally-managed

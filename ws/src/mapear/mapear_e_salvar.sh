@@ -5,9 +5,8 @@ save_map() {
     ros2 run nav2_map_server map_saver_cli -f map
     # Add your cleanup command here
     # For example: kill some_process
-
-    # Wait for the background process to finish before exiting
     wait
+    # Wait for the background process to finish before exiting
     exit 0
 }
 
@@ -17,6 +16,4 @@ trap save_map SIGINT
 # Your main command goes here
 ros2 launch launch/map_launch.py &
 
-# Wait for the background process to finish
-wait
-
+wait 

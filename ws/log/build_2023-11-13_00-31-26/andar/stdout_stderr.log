@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/andar/andar.egg-info
+writing ../../build/andar/andar.egg-info/PKG-INFO
+writing dependency_links to ../../build/andar/andar.egg-info/dependency_links.txt
+writing entry points to ../../build/andar/andar.egg-info/entry_points.txt
+writing requirements to ../../build/andar/andar.egg-info/requires.txt
+writing top-level names to ../../build/andar/andar.egg-info/top_level.txt
+writing manifest file '../../build/andar/andar.egg-info/SOURCES.txt'
+reading manifest file '../../build/andar/andar.egg-info/SOURCES.txt'
+writing manifest file '../../build/andar/andar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/elisa/p2/ws/build/andar/build
+creating /home/elisa/p2/ws/build/andar/build/lib
+creating /home/elisa/p2/ws/build/andar/build/lib/andar
+copying andar/coordinateChatbot.py -> /home/elisa/p2/ws/build/andar/build/lib/andar
+copying andar/initialize_pose.py -> /home/elisa/p2/ws/build/andar/build/lib/andar
+copying andar/poseQueue.py -> /home/elisa/p2/ws/build/andar/build/lib/andar
+copying andar/__init__.py -> /home/elisa/p2/ws/build/andar/build/lib/andar
+copying andar/vallet.py -> /home/elisa/p2/ws/build/andar/build/lib/andar
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar
+copying /home/elisa/p2/ws/build/andar/build/lib/andar/coordinateChatbot.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar
+copying /home/elisa/p2/ws/build/andar/build/lib/andar/initialize_pose.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar
+copying /home/elisa/p2/ws/build/andar/build/lib/andar/poseQueue.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar
+copying /home/elisa/p2/ws/build/andar/build/lib/andar/__init__.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar
+copying /home/elisa/p2/ws/build/andar/build/lib/andar/vallet.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar
+byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/coordinateChatbot.py to coordinateChatbot.cpython-310.pyc
+byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/initialize_pose.py to initialize_pose.cpython-310.pyc
+byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/poseQueue.py to poseQueue.cpython-310.pyc
+byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/vallet.py to vallet.cpython-310.pyc
+running install_data
+creating /home/elisa/p2/ws/install/andar/share/ament_index
+creating /home/elisa/p2/ws/install/andar/share/ament_index/resource_index
+creating /home/elisa/p2/ws/install/andar/share/ament_index/resource_index/packages
+copying resource/andar -> /home/elisa/p2/ws/install/andar/share/ament_index/resource_index/packages
+copying package.xml -> /home/elisa/p2/ws/install/andar/share/andar
+running install_egg_info
+Copying ../../build/andar/andar.egg-info to /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/elisa/p2/ws/build/andar/install.log'

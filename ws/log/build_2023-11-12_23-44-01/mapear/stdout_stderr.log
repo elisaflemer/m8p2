@@ -1,0 +1,20 @@
+running egg_info
+creating ../../build/mapear/mapear.egg-info
+writing ../../build/mapear/mapear.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapear/mapear.egg-info/dependency_links.txt
+writing entry points to ../../build/mapear/mapear.egg-info/entry_points.txt
+writing requirements to ../../build/mapear/mapear.egg-info/requires.txt
+writing top-level names to ../../build/mapear/mapear.egg-info/top_level.txt
+writing manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+reading manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+writing manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'
+running build
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_data
+creating /home/elisa/p2/ws/install/mapear/share
+creating /home/elisa/p2/ws/install/mapear/share/ament_index
+creating /home/elisa/p2/ws/install/mapear/share/ament_index/resource_index
+creating /home/elisa/p2/ws/install/mapear/share/ament_index/resource_index/packages
+error: can't copy 'resource/mapear': doesn't exist or not a regular file

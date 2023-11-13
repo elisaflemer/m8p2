@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000401] (andar) JobQueued: {'identifier': 'andar', 'dependencies': OrderedDict()}
+[0.000427] (mapear) JobQueued: {'identifier': 'mapear', 'dependencies': OrderedDict()}
+[0.000441] (andar) JobStarted: {'identifier': 'andar'}
+[0.099907] (-) TimerEvent: {}
+[0.200966] (-) TimerEvent: {}
+[0.272824] (mapear) JobStarted: {'identifier': 'mapear'}
+[0.301062] (-) TimerEvent: {}
+[0.401664] (-) TimerEvent: {}
+[0.502823] (-) TimerEvent: {}
+[0.603094] (-) TimerEvent: {}
+[0.703409] (-) TimerEvent: {}
+[0.803703] (-) TimerEvent: {}
+[0.904282] (-) TimerEvent: {}
+[1.004766] (-) TimerEvent: {}
+[1.105094] (-) TimerEvent: {}
+[1.205689] (-) TimerEvent: {}
+[1.306187] (-) TimerEvent: {}
+[1.406668] (-) TimerEvent: {}
+[1.507051] (-) TimerEvent: {}
+[1.607747] (-) TimerEvent: {}
+[1.708058] (-) TimerEvent: {}
+[1.808402] (-) TimerEvent: {}
+[1.908804] (-) TimerEvent: {}
+[1.979755] (mapear) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mapear', 'build', '--build-base', '/home/elisa/p2/ws/build/mapear/build', 'install', '--record', '/home/elisa/p2/ws/build/mapear/install.log', '--single-version-externally-managed'], 'cwd': '/home/elisa/p2/ws/src/mapear', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'elisa', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/elisa', 'OLDPWD': '/home/elisa/p2/ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '3344', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/elisa/b/grupo4/src/bridge/nav_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'elisa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elisa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/elisa-Latitude-5420:@/tmp/.ICE-unix/1127,unix/elisa-Latitude-5420:/tmp/.ICE-unix/1127', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/63447d5b_c3d6_45cc_8737_4b8394b52bbd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2X0LE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '50', 'AMENT_PREFIX_PATH': '/home/elisa/b/grupo4/src/bridge/nav_workspace/install/navigator:/home/elisa/b/grupo4/src/bridge/nav_workspace/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elisa/p2/ws/build/mapear', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/elisa/p2/ws/build/mapear/prefix_override:/home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages:/home/elisa/b/grupo4/src/bridge/nav_workspace/install/navigator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/elisa/b/grupo4/src/bridge/nav_workspace/install/my_package'}, 'shell': False}
+[1.986281] (andar) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/andar', 'build', '--build-base', '/home/elisa/p2/ws/build/andar/build', 'install', '--record', '/home/elisa/p2/ws/build/andar/install.log', '--single-version-externally-managed'], 'cwd': '/home/elisa/p2/ws/src/andar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'elisa', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/elisa', 'OLDPWD': '/home/elisa/p2/ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '3344', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/elisa/b/grupo4/src/bridge/nav_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'elisa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'elisa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/elisa-Latitude-5420:@/tmp/.ICE-unix/1127,unix/elisa-Latitude-5420:/tmp/.ICE-unix/1127', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/63447d5b_c3d6_45cc_8737_4b8394b52bbd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2X0LE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '50', 'AMENT_PREFIX_PATH': '/home/elisa/b/grupo4/src/bridge/nav_workspace/install/navigator:/home/elisa/b/grupo4/src/bridge/nav_workspace/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/elisa/p2/ws/build/andar', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/elisa/p2/ws/build/andar/prefix_override:/home/elisa/p2/ws/install/andar/lib/python3.10/site-packages:/home/elisa/b/grupo4/src/bridge/nav_workspace/install/navigator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/elisa/b/grupo4/src/bridge/nav_workspace/install/my_package'}, 'shell': False}
+[2.008976] (-) TimerEvent: {}
+[2.109382] (-) TimerEvent: {}
+[2.210350] (-) TimerEvent: {}
+[2.311207] (-) TimerEvent: {}
+[2.412459] (-) TimerEvent: {}
+[2.451908] (andar) StdoutLine: {'line': b'running egg_info\n'}
+[2.453613] (andar) StdoutLine: {'line': b'creating ../../build/andar/andar.egg-info\n'}
+[2.454178] (andar) StdoutLine: {'line': b'writing ../../build/andar/andar.egg-info/PKG-INFO\n'}
+[2.454434] (mapear) StdoutLine: {'line': b'running egg_info\n'}
+[2.454709] (andar) StdoutLine: {'line': b'writing dependency_links to ../../build/andar/andar.egg-info/dependency_links.txt\n'}
+[2.454876] (andar) StdoutLine: {'line': b'writing entry points to ../../build/andar/andar.egg-info/entry_points.txt\n'}
+[2.455037] (andar) StdoutLine: {'line': b'writing requirements to ../../build/andar/andar.egg-info/requires.txt\n'}
+[2.455340] (andar) StdoutLine: {'line': b'writing top-level names to ../../build/andar/andar.egg-info/top_level.txt\n'}
+[2.455511] (andar) StdoutLine: {'line': b"writing manifest file '../../build/andar/andar.egg-info/SOURCES.txt'\n"}
+[2.456023] (mapear) StdoutLine: {'line': b'writing ../../build/mapear/mapear.egg-info/PKG-INFO\n'}
+[2.458483] (andar) StdoutLine: {'line': b"reading manifest file '../../build/andar/andar.egg-info/SOURCES.txt'\n"}
+[2.459432] (andar) StdoutLine: {'line': b"writing manifest file '../../build/andar/andar.egg-info/SOURCES.txt'\n"}
+[2.459634] (andar) StdoutLine: {'line': b'running build\n'}
+[2.459725] (andar) StdoutLine: {'line': b'running build_py\n'}
+[2.459847] (andar) StdoutLine: {'line': b'creating /home/elisa/p2/ws/build/andar/build\n'}
+[2.460004] (andar) StdoutLine: {'line': b'creating /home/elisa/p2/ws/build/andar/build/lib\n'}
+[2.460148] (andar) StdoutLine: {'line': b'creating /home/elisa/p2/ws/build/andar/build/lib/andar\n'}
+[2.460232] (andar) StdoutLine: {'line': b'copying andar/coordinateChatbot.py -> /home/elisa/p2/ws/build/andar/build/lib/andar\n'}
+[2.479262] (mapear) StdoutLine: {'line': b'writing dependency_links to ../../build/mapear/mapear.egg-info/dependency_links.txt\n'}
+[2.479918] (mapear) StdoutLine: {'line': b'writing entry points to ../../build/mapear/mapear.egg-info/entry_points.txt\n'}
+[2.480240] (mapear) StdoutLine: {'line': b'writing requirements to ../../build/mapear/mapear.egg-info/requires.txt\n'}
+[2.480427] (mapear) StdoutLine: {'line': b'writing top-level names to ../../build/mapear/mapear.egg-info/top_level.txt\n'}
+[2.480813] (andar) StdoutLine: {'line': b'copying andar/initialize_pose.py -> /home/elisa/p2/ws/build/andar/build/lib/andar\n'}
+[2.482397] (andar) StdoutLine: {'line': b'copying andar/poseQueue.py -> /home/elisa/p2/ws/build/andar/build/lib/andar\n'}
+[2.483019] (andar) StdoutLine: {'line': b'copying andar/__init__.py -> /home/elisa/p2/ws/build/andar/build/lib/andar\n'}
+[2.483363] (andar) StdoutLine: {'line': b'copying andar/vallet.py -> /home/elisa/p2/ws/build/andar/build/lib/andar\n'}
+[2.484811] (andar) StdoutLine: {'line': b'running install\n'}
+[2.485674] (andar) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.485872] (andar) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.485961] (mapear) StdoutLine: {'line': b"reading manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'\n"}
+[2.486215] (andar) StdoutLine: {'line': b'running install_lib\n'}
+[2.487502] (andar) StdoutLine: {'line': b'creating /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar\n'}
+[2.487781] (mapear) StdoutLine: {'line': b"writing manifest file '../../build/mapear/mapear.egg-info/SOURCES.txt'\n"}
+[2.487906] (andar) StdoutLine: {'line': b'copying /home/elisa/p2/ws/build/andar/build/lib/andar/coordinateChatbot.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar\n'}
+[2.488009] (andar) StdoutLine: {'line': b'copying /home/elisa/p2/ws/build/andar/build/lib/andar/initialize_pose.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar\n'}
+[2.488219] (andar) StdoutLine: {'line': b'copying /home/elisa/p2/ws/build/andar/build/lib/andar/poseQueue.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar\n'}
+[2.488319] (mapear) StdoutLine: {'line': b'running build\n'}
+[2.488404] (mapear) StdoutLine: {'line': b'running build_py\n'}
+[2.488488] (andar) StdoutLine: {'line': b'copying /home/elisa/p2/ws/build/andar/build/lib/andar/__init__.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar\n'}
+[2.488573] (andar) StdoutLine: {'line': b'copying /home/elisa/p2/ws/build/andar/build/lib/andar/vallet.py -> /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar\n'}
+[2.488731] (mapear) StdoutLine: {'line': b'creating /home/elisa/p2/ws/build/mapear/build\n'}
+[2.488833] (mapear) StdoutLine: {'line': b'creating /home/elisa/p2/ws/build/mapear/build/lib\n'}
+[2.488939] (mapear) StdoutLine: {'line': b'creating /home/elisa/p2/ws/build/mapear/build/lib/mapear\n'}
+[2.489073] (mapear) StdoutLine: {'line': b'copying mapear/__init__.py -> /home/elisa/p2/ws/build/mapear/build/lib/mapear\n'}
+[2.489655] (andar) StdoutLine: {'line': b'byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/coordinateChatbot.py to coordinateChatbot.cpython-310.pyc\n'}
+[2.489903] (mapear) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.490373] (mapear) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.490788] (mapear) StdoutLine: {'line': b'running install\n'}
+[2.491011] (andar) StdoutLine: {'line': b'byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/initialize_pose.py to initialize_pose.cpython-310.pyc\n'}
+[2.491234] (mapear) StdoutLine: {'line': b'running install_lib\n'}
+[2.491384] (andar) StdoutLine: {'line': b'byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/poseQueue.py to poseQueue.cpython-310.pyc\n'}
+[2.492182] (andar) StdoutLine: {'line': b'byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/__init__.py to __init__.cpython-310.pyc\n'}
+[2.492412] (mapear) StdoutLine: {'line': b'creating /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear\n'}
+[2.492670] (andar) StdoutLine: {'line': b'byte-compiling /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar/vallet.py to vallet.cpython-310.pyc\n'}
+[2.492774] (mapear) StdoutLine: {'line': b'copying /home/elisa/p2/ws/build/mapear/build/lib/mapear/__init__.py -> /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear\n'}
+[2.493126] (mapear) StdoutLine: {'line': b'byte-compiling /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear/__init__.py to __init__.cpython-310.pyc\n'}
+[2.493355] (andar) StdoutLine: {'line': b'running install_data\n'}
+[2.493529] (mapear) StdoutLine: {'line': b'running install_data\n'}
+[2.494477] (andar) StdoutLine: {'line': b'creating /home/elisa/p2/ws/install/andar/share/ament_index\n'}
+[2.494704] (andar) StdoutLine: {'line': b'creating /home/elisa/p2/ws/install/andar/share/ament_index/resource_index\n'}
+[2.494802] (andar) StdoutLine: {'line': b'creating /home/elisa/p2/ws/install/andar/share/ament_index/resource_index/packages\n'}
+[2.494978] (andar) StdoutLine: {'line': b'copying resource/andar -> /home/elisa/p2/ws/install/andar/share/ament_index/resource_index/packages\n'}
+[2.495093] (andar) StdoutLine: {'line': b'copying package.xml -> /home/elisa/p2/ws/install/andar/share/andar\n'}
+[2.495220] (andar) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.496065] (mapear) StdoutLine: {'line': b'copying resource/mapear -> /home/elisa/p2/ws/install/mapear/share/ament_index/resource_index/packages\n'}
+[2.496337] (mapear) StdoutLine: {'line': b'copying package.xml -> /home/elisa/p2/ws/install/mapear/share/mapear\n'}
+[2.496482] (mapear) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.501925] (andar) StdoutLine: {'line': b'Copying ../../build/andar/andar.egg-info to /home/elisa/p2/ws/install/andar/lib/python3.10/site-packages/andar-0.0.0-py3.10.egg-info\n'}
+[2.503668] (andar) StdoutLine: {'line': b'running install_scripts\n'}
+[2.503839] (mapear) StdoutLine: {'line': b'Copying ../../build/mapear/mapear.egg-info to /home/elisa/p2/ws/install/mapear/lib/python3.10/site-packages/mapear-0.0.0-py3.10.egg-info\n'}
+[2.506179] (mapear) StdoutLine: {'line': b'running install_scripts\n'}
+[2.512562] (-) TimerEvent: {}
+[2.549329] (andar) StdoutLine: {'line': b"writing list of installed files to '/home/elisa/p2/ws/build/andar/install.log'\n"}
+[2.553572] (mapear) StdoutLine: {'line': b"writing list of installed files to '/home/elisa/p2/ws/build/mapear/install.log'\n"}
+[2.608148] (andar) CommandEnded: {'returncode': 0}
+[2.613289] (-) TimerEvent: {}
+[2.713910] (-) TimerEvent: {}
+[2.733633] (andar) JobEnded: {'identifier': 'andar', 'rc': 0}
+[2.735691] (mapear) CommandEnded: {'returncode': 0}
+[2.814123] (-) TimerEvent: {}
+[2.824146] (mapear) JobEnded: {'identifier': 'mapear', 'rc': 0}
+[2.825939] (-) EventReactorShutdown: {}
