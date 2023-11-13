@@ -20,6 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "chatbot=andar.chatbot:main",
+            "vallet=andar.vallet:main",
+            "init_pose=andar.initialize_pose:main",
+            "queue=andar.poseQueue:main",
+            "coordinatesChatbot=andar.coordinateChatbot:main"
         ],
     },
 )
