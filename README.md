@@ -63,4 +63,5 @@ Agora o robô deverá navegar pelo ambiente simulado utilizando o mapa previamen
 
 ## Demo
 
-Um vídeo está disponível neste repo com o nome "p2.mp4"
+https://github.com/elisaflemer/m8p2/assets/99259251/be9234dc-c2c6-4be6-a5a9-7a49cc0e06f2
+
